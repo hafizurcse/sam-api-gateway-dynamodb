@@ -4,8 +4,8 @@
   "description": "A simple backend with a RESTful API endpoint using Amazon API Gateway",
   "main": "index.js",
   "scripts": {
-    "seed": "node ./seed/runner.js",
-    "start": "sh ./seed/seeder.sh",
+    "init-table": "sh ./bin/create_table.sh",
+    "seed-table": "sh ./bin/seed_data.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
